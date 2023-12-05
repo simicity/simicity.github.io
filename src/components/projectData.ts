@@ -16,20 +16,28 @@ export const projectData = [
     "url": ""
   },
   {
+    "title": "Foodwise",
+    "description": "Fridge management system that helps you keep track of your food. You can invite and share your fridge with your roommates.",
+    "image": "/images/foodwise.png",
+    "tags": ["JavaScript", "React", "Node.js"],
+    "repo": "https://github.com/simicity/foodwise",
+    "url": ""
+  },
+  {
+    "title": "Forum Website",
+    "description": "Forum website that allows users to form study groups by posting and commenting.",
+    "image": "/images/forum.jpg",
+    "tags": ["Python"],
+    "repo": "https://github.com/simicity/csc648-848-sw-engineering-T04",
+    "url": ""
+  },
+  {
     "title": "Bookmark Manager",
     "description": "React app to manage bookmarks.",
     "image": "/images/bookmark-manager.png",
     "tags": ["JavaScript", "React"],
     "repo": "https://github.com/simicity/bookmark-manager",
     "url": "https://simicity.github.io/bookmark-manager"
-  },
-  {
-    "title": "AI-Powered Journal",
-    "description": "AI provides you with journal prompts.",
-    "image": "/images/journal.png",
-    "tags": ["TypeScript", "Next.js"],
-    "repo": "https://github.com/simicity/co-journal",
-    "url": "https://co-journal.vercel.app"
   },
   {
     "title": "Spotify Data Visualization",
@@ -40,11 +48,11 @@ export const projectData = [
     "url": "https://miho-and-alex.github.io/CSC805-Data-Visualization-Project/"
   },
   {
-    "title": "Forum Website",
-    "description": "Forum website that allows users to form study groups by posting and commenting.",
-    "image": "/images/forum.jpg",
-    "tags": ["Python"],
-    "repo": "https://github.com/simicity/csc648-848-sw-engineering-T04",
-    "url": ""
-  }
+    "title": "AI-Powered Journal",
+    "description": "AI provides you with journal prompts.",
+    "image": "/images/journal.png",
+    "tags": ["TypeScript", "Next.js"],
+    "repo": "https://github.com/simicity/co-journal",
+    "url": "https://co-journal.vercel.app"
+  },
 ]
