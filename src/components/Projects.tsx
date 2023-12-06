@@ -15,10 +15,10 @@ const tagTextColor = {
 
 export default function Projects() {
   return (
-    <main className='mt-4 p-10 pt-20'>
-      <div className="grid gap-10 lg:grid-cols-3 md:grid-cols-2">
-        <div className='w-full col-span-full text-center'>
-          <h1 className='font-black text-4xl text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-500'>{"<Projects />"}</h1>
+    <main className='mt-32'>
+      <div className="grid gap-6 lg:grid-cols-3 md:grid-cols-2">
+        <div className='w-full col-span-full text-center mb-4'>
+          <h1 className='font-black text-6xl text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-orange-500'>{"<Projects />"}</h1>
         </div>
         {projectData.map(({title, description, image, tags, repo, url}) => (
           <a target="_blank" href={url ? url : repo} key={title} className="project-item flex flex-col justify-between max-w-[360px] rounded-3xl p-5 shadow-lg bg-white dark:bg-slate-900 text-black dark:text-white font-medium">
