@@ -1,5 +1,21 @@
 export const projectData = [
   {
+    "title": "iOS Expense Tracker App",
+    "description": "Full-stack chat app using Socket.io for real-time communications.",
+    "image": "/images/expense-tracker.png",
+    "tags": ["Swift", "SwiftUI"],
+    "repo": "https://github.com/simicity/ExpenseTracker",
+    "url": ""
+  },
+  {
+    "title": "Foodwise",
+    "description": "Fridge management system that helps you keep track of your food. You can invite and share your fridge with your roommates.",
+    "image": "/images/foodwise.png",
+    "tags": ["JavaScript", "React", "Node.js"],
+    "repo": "https://github.com/simicity/foodwise",
+    "url": ""
+  },
+  {
     "title": "Chat Rooms",
     "description": "Full-stack chat app using Socket.io for real-time communications.",
     "image": "/images/chat-room.png",
@@ -16,12 +32,12 @@ export const projectData = [
     "url": ""
   },
   {
-    "title": "Foodwise",
-    "description": "Fridge management system that helps you keep track of your food. You can invite and share your fridge with your roommates.",
-    "image": "/images/foodwise.png",
-    "tags": ["JavaScript", "React", "Node.js"],
-    "repo": "https://github.com/simicity/foodwise",
-    "url": ""
+    "title": "AI-Powered Journal",
+    "description": "AI provides you with journal prompts.",
+    "image": "/images/journal.png",
+    "tags": ["TypeScript", "Next.js"],
+    "repo": "https://github.com/simicity/co-journal",
+    "url": "https://co-journal.vercel.app"
   },
   {
     "title": "Forum Website",
@@ -46,13 +62,5 @@ export const projectData = [
     "tags": ["JavaScript"],
     "repo": "https://github.com/Miho-and-Alex/CSC805-Data-Visualization-Project",
     "url": "https://miho-and-alex.github.io/CSC805-Data-Visualization-Project/"
-  },
-  {
-    "title": "AI-Powered Journal",
-    "description": "AI provides you with journal prompts.",
-    "image": "/images/journal.png",
-    "tags": ["TypeScript", "Next.js"],
-    "repo": "https://github.com/simicity/co-journal",
-    "url": "https://co-journal.vercel.app"
   },
 ]

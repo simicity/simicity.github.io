@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: system-ui, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,12 +19,12 @@
 
   :root {
     color: #111111;
-    background-color: #E5E7E9;
+    background-color: #F5F5F5;
   }
 
   :root[class~="dark"] {
     color: #FFFFFF;
-    background-color: #181d32;
+    background-color: #011526;
   }
 }
 
@@ -36,6 +36,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.hero-style {
+  font-family: 'Jersey 10 Charted', system-ui;
 }
 
 .project-item img{
