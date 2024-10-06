@@ -39,7 +39,22 @@ body {
 }
 
 .hero-style {
-  font-family: 'Jersey 10 Charted', system-ui;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.hero-rectangle {
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  border-radius: 30px;
+  width: 100%;
+  height: 350px;
+  -webkit-animation: Animation 10s ease infinite;
+  -moz-animation: Animation 10s ease infinite;
+  animation: Animation 10s ease infinite;
+}
+
+.quote-style {
+  font-family: "Reenie Beanie", cursive;
 }
 
 .project-item img{

@@ -6,7 +6,7 @@ export const SunIcon = ({size}: {size: string}) => (
     viewBox="0 0 24 24"
     width={size}
     height={size}
-    className="fill-current hover:fill-red-400"
+    className="fill-current opacity-30 hover:fill-red-400 hover:opacity-100"
   >
     <g>
       <path d="M19 12a7 7 0 11-7-7 7 7 0 017 7z" />

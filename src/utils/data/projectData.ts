@@ -1,7 +1,15 @@
 export const projectData = [
   {
+    "title": "iOS Podcast Finder App",
+    "description": "iOS app for searching and listening to podcasts.",
+    "image": "/images/podlab.jpg",
+    "tags": ["Swift", "SwiftUI"],
+    "repo": "https://github.com/simicity/PodLabApp",
+    "url": ""
+  },
+  {
     "title": "iOS Expense Tracker App",
-    "description": "Full-stack chat app using Socket.io for real-time communications.",
+    "description": "iOS app for tracking expenses and saving money, built with SwiftUI and SwiftData.",
     "image": "/images/expense-tracker.png",
     "tags": ["Swift", "SwiftUI"],
     "repo": "https://github.com/simicity/ExpenseTracker",
